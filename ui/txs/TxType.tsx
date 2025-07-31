@@ -50,7 +50,7 @@ const TxType = ({ types, isLoading }: Props) => {
       break;
     case 'coin_transfer':
       label = 'Coin transfer';
-      colorPalette = 'orange';
+      colorPalette = 'blue';
       break;
     case 'rootstock_remasc':
       label = 'REMASC';

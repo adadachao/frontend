@@ -15,12 +15,12 @@ const colors = {
     '50': { value: '#EBF8FF' },
     '100': { value: '#BEE3F8' },
     '200': { value: '#90CDF4' },
-    '300': { value: '#63B3ED' },
-    '400': { value: '#4299E1' },
+    '300': { value: '#2fcc00' }, // 修改为自定义颜色
+    '400': { value: '#00934f' }, // 修改为自定义悬停颜色
     '500': { value: '#3182CE' },
-    '600': { value: '#2B6CB0' },
+    '600': { value: '#2fcc00' }, // 修改为自定义颜色
     '700': { value: '#2C5282' },
-    '800': { value: '#2A4365' },
+    '800': { value: '#0063b0' }, // 修改为自定义颜色
     '900': { value: '#1A365D' },
   },
   red: {
@@ -157,6 +157,11 @@ const colors = {
   medium: { value: '#231F20' },
   reddit: { value: '#FF4500' },
   celo: { value: '#FCFF52' },
+  // 添加自定义悬停颜色
+  custom: {
+    hover: { value: '#2fcc00' },
+    buttonBg: { value: '#00934f' },
+  },
 };
 
 export default colors;

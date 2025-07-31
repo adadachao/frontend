@@ -28,8 +28,8 @@ const LogoFallback = ({ isCollapsed, isSmall }: { isCollapsed?: boolean; isSmall
   return (
     <IconSvg
       name={ isSmall ? 'networks/icon-placeholder' : 'networks/logo-placeholder' }
-      width={ isSmall ? '30px' : '120px' }
-      height="100%"
+      width={ isSmall ? '30px' : '100%' }
+      height={ isSmall ? '100%' : '30px' }
       color={{ base: 'blue.600', _dark: 'white' }}
       display={ display }
       aria-label={ isSmall ? 'Network icon placeholder' : 'Network logo placeholder' }

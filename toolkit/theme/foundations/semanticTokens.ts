@@ -80,14 +80,14 @@ const semanticTokens: ThemingConfig['semanticTokens'] = {
         bg: {
           DEFAULT: {
             value: {
-              _light: heroBannerButton?._default?.background?.[0] || '{colors.blue.600}',
-              _dark: heroBannerButton?._default?.background?.[1] || heroBannerButton?._default?.background?.[0] || '{colors.blue.600}',
+              _light: heroBannerButton?._default?.background?.[0] || '{colors.custom.buttonBg}',
+              _dark: heroBannerButton?._default?.background?.[1] || heroBannerButton?._default?.background?.[0] || '{colors.custom.buttonBg}',
             },
           },
           hover: {
             value: {
-              _light: heroBannerButton?._hover?.background?.[0] || '{colors.blue.400}',
-              _dark: heroBannerButton?._hover?.background?.[1] || heroBannerButton?._hover?.background?.[0] || '{colors.blue.400}',
+              _light: heroBannerButton?._hover?.background?.[0] || '{colors.custom.hover}',
+              _dark: heroBannerButton?._hover?.background?.[1] || heroBannerButton?._hover?.background?.[0] || '{colors.custom.hover}',
             },
           },
           selected: {
@@ -127,7 +127,7 @@ const semanticTokens: ThemingConfig['semanticTokens'] = {
     link: {
       primary: {
         DEFAULT: { value: { _light: '{colors.blue.600}', _dark: '{colors.blue.300}' } },
-        hover: { value: { _light: '{colors.blue.400}' } },
+        hover: { value: { _light: '{colors.custom.hover}', _dark: '{colors.custom.hover}' } },
       },
       secondary: {
         DEFAULT: { value: { _light: '{colors.gray.500}', _dark: '{colors.gray.400}' } },
@@ -137,14 +137,14 @@ const semanticTokens: ThemingConfig['semanticTokens'] = {
       },
       subtle: {
         DEFAULT: { value: { _light: '{colors.blackAlpha.800}', _dark: '{colors.gray.400}' } },
-        hover: { value: { _light: '{colors.blackAlpha.800}', _dark: '{colors.gray.400}' } },
+        hover: { value: { _light: '{colors.custom.hover}', _dark: '{colors.custom.hover}' } },
       },
       navigation: {
         fg: {
           DEFAULT: { value: { _light: '{colors.gray.600}', _dark: '{colors.gray.400}' } },
           selected: { value: { _light: '{colors.blue.700}', _dark: '{colors.gray.50}' } },
-          hover: { value: { _light: '{colors.link.primary.hover}' } },
-          active: { value: { _light: '{colors.link.primary.hover}' } },
+          hover: { value: { _light: '{colors.custom.hover}', _dark: '{colors.custom.hover}' } },
+          active: { value: { _light: '{colors.custom.hover}', _dark: '{colors.custom.hover}' } },
         },
         bg: {
           selected: { value: { _light: '{colors.blue.50}', _dark: '{colors.gray.800}' } },
