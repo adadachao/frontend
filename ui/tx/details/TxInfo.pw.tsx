@@ -98,7 +98,7 @@ test('l2', async({ render, page, mockEnvs }) => {
   });
 });
 
-test('without testnet warning', async({ render, page, mockEnvs }) => {
+test('without beta warning', async({ render, page, mockEnvs }) => {
   await mockEnvs([
     [ 'NEXT_PUBLIC_IS_TESTNET', 'false' ],
   ]);
